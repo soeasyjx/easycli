@@ -1,0 +1,30 @@
+{
+  "name": "easycli",
+  "version": "1.0.0",
+  "description": "自动化命令工具",
+  "main": "./bin.js",
+  "type":"module",
+  "bin": {
+    "easycli": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jiangxin",
+  "license": "ISC",
+  "keywords": [
+    "easycli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soeasyjx/easycli.git"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.1.1",
+    "ora": "^6.1.2",
+    "update-notifier": "^6.0.2"
+  }
+}
